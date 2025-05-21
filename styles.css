@@ -1,0 +1,31 @@
+li{
+    display:inline;
+    margin-left: 2rem;
+    font-size: 2rem;
+    height:1rem;
+    width:1rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.navbar{
+    position:fixed;
+    top:0;
+    width: 100%;
+    z-index:3;
+    border-bottom: 1px solid white;
+}
+#aboutme{
+    margin-top: 5rem;
+}
+.four-grid{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    gap: 1rem;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: Lato;
+}

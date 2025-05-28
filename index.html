@@ -5,13 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Layout Testbed</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="navbar">
         <div class="first-section">
             Logo
         </div>
-        <div class="second-section">
+        <div class="second-section">  
             <div><a class="navbar-links" href="#about">About</a></div>
             <div><a class="navbar-links" href="#portfolio">Portfolio</a></div>
             <div><a class="navbar-links" href="#contact">Contact</a></div>
@@ -20,16 +23,34 @@
     <section id="about">
         <div class="content-row">
             <div class="left-box">
+                <div class="about-pic-div">
+                    <img src="pics/person-svgrepo-com.svg" alt="" class="small-pic">
+                </div>
                     <h1>About Me</h1>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim aperiam repellat non veritatis quae amet quas sapiente, itaque laboriosam provident facere. Necessitatibus tempore quia quo reprehenderit, mollitia veritatis enim facere!
+                        Hi, I'm Joseph—a passionate software developer with a love for Python. I enjoy creating practical tools that solve real-world problems, 
+                        like automating tasks for cognitive behavioral therapy. 
+                        My skills include building GUI applications, web scraping, and automation. 
+                        While I'm still growing my experience, I'm an eager learner who thrives on tackling new challenges and expanding my knowledge in software development. 
+                        Let's connect and build something great together!
                     </p>
             </div>
             <div class="right-box">
                 <div class="pic-box">
-                    <img src="pics/stock.jpg" alt="stok" class="project-image">
+                    <div class="small-pic-div">
+                        <img src="pics/html-5-svgrepo-com.svg" alt="HTML" class="small-pic">
+                    </div>
+                    <div class="small-pic-div">
+                        <img src="pics/css-3-svgrepo-com.svg" alt="CSS" class="small-pic">
+                        <img src="pics/javascript-svgrepo-com.svg" alt="JAVSCRIPT" class="small-pic">
+                    </div>
+                    <div class="small-pic-div">
+                        <img src="pics/python-svgrepo-com.svg" alt="PYTHON" class="small-pic">
+                        <img src="pics/git-svgrepo-com.svg" alt="GIT" class="small-pic">
+                        <img src="pics/sql-database-generic-svgrepo-com.svg" alt="SQL" class="small-pic">
+                    </div>
                 </div>
-                <div class="pic-title">Picture</div>
+                <div class="pic-title">Skills</div>
             </div>
         </div>
     </div>
@@ -37,7 +58,7 @@
     <section id="portfolio">
         <div class="content-row">
             <div class="left-box">
-                    <h1>Project #1</h1>
+                    <h1>Anti Depression Tool</h1>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim aperiam repellat non veritatis quae amet quas sapiente, itaque laboriosam provident facere. Necessitatibus tempore quia quo reprehenderit, mollitia veritatis enim facere!
                     </p>
@@ -79,7 +100,20 @@
     </div>
     </section>
     <section id="contact">
-        <div>Contact ME</div>
+        <div class="contact-div">
+            <div class="contact-item">
+                <h2>Contact Me</h2>
+            </div>
+            <div class="contact-item">
+                <h3><a href="https://github.com/jSalanesh">Github</a></h3>
+            </div>
+            <div class="contact-item">
+                <h3><a href="https://www.onlinejobs.ph/jobseekers/info/2653763">Onlinejobs Profile</a></h3>
+            </div>
+            <div class="contact-item">
+                <h3><a href="https://www.linkedin.com/in/joseph-pio-sala-b44b85360/">Linkedin</a></h3>
+            </div>
+        </div>
     </section>
     
 </body>

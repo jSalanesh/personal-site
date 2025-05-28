@@ -4,7 +4,7 @@ body{
 }
 .navbar{
     height: 4rem;
-    background-color: green;
+    /* background-color: green; */
     display:flex;
     justify-content: space-between;
     position:fixed;
@@ -15,7 +15,7 @@ body{
 .first-section{
     padding-left:2rem;
     display:flex;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     flex:1;
     align-items: center;
 }
@@ -24,19 +24,19 @@ body{
     padding-right: 2rem;
     display:flex;
     flex-direction: row;
-    background-color: brown;
+    /* background-color: brown; */
     justify-content:end;
     align-items: center;
     flex:2;
 }
 .content-row{
-    background-color: green;
+    /* background-color: green; */
     display:flex;
     flex-direction: row;
 }
 .left-box{
     flex: 1;
-    background-color: blue;
+    /* background-color: blue; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -45,7 +45,7 @@ body{
     display:flex;
     flex-direction: column;
     flex: 1;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     justify-content: center;
     align-items: center;
 }
@@ -93,12 +93,16 @@ body{
     margin-top:3rem;
 }
 .contact-div{
-    background-color: blanchedalmond;
+    /* background-color: blanchedalmond; */
     height: 16rem;
     width: 100%;
     display:flex;
     flex-direction: column;
     align-items: center;
+}
+.logo-pic{
+    height:2rem;
+    width: 8rem;
 }
 
 
@@ -110,6 +114,7 @@ body{
     width:fit-content;
    }
    .second-section{
+    margin-left: 15vw;
     padding-left: 1rem;
     padding-right: 1rem;
     width: 75vw;
@@ -117,5 +122,8 @@ body{
    .pic-box{
     height: 100vw;
     width: 90vw;
+   }
+   .logo-pic{
+    display:none;
    }
 }
